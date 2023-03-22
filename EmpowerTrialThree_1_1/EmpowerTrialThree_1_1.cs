@@ -49,11 +49,8 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
 using Skyline.DataMiner.Automation;
+using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
 /// <summary>
 /// DataMiner Script Class.
@@ -67,5 +64,12 @@ public class Script
 	public void Run(Engine engine)
 	{
 		engine.GenerateInformation("Hello Empower.");
+		var dms = engine.GetDms();
+		var allElements = dms.GetElements();
+
+		foreach (var element in allElements)
+		{
+			engine.GenerateInformation("Element Name = " + element.Name);
+		}
 	}
 }
