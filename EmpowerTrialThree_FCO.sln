@@ -25,12 +25,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmpowerTrialThree_1", "EmpowerTrialThree_1", "{BCEF60AD-53BC-44C7-920C-BA563B05771F}"
 	ProjectSection(SolutionItems) = preProject
-		EmpowerTrialThree_1.xml = EmpowerTrialThree_1.xml
+		EmpowerTrialThree_FCO.xml = EmpowerTrialThree_FCO.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{2459129C-9536-4C2B-B142-7C619A9E56C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerTrialThree_1_1", "EmpowerTrialThree_1_1\EmpowerTrialThree_1_1.csproj", "{90E181A4-6352-40E1-A149-AFCE3ABAA385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerTrialThree_FCO_1", "EmpowerTrialThree_1_1\EmpowerTrialThree_FCO_1.csproj", "{90E181A4-6352-40E1-A149-AFCE3ABAA385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

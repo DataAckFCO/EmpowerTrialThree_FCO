@@ -49,6 +49,7 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
+using Empower.Library.RoomTest;
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
@@ -65,11 +66,8 @@ public class Script
 	{
 		engine.GenerateInformation("Hello Empower.");
 		var dms = engine.GetDms();
-		var allElements = dms.GetElements();
 
-		foreach (var element in allElements)
-		{
-			engine.GenerateInformation("Element Name = " + element.Name);
-		}
+		var order = OrderFactory.CreateOrder("Order FCO");
+		order.Dispatch("Floris Cockaerts");
 	}
 }
